@@ -1,12 +1,12 @@
-import { useState } from "react";
-import "./App.css";
+import NavHome from "./component/home/NavHome";
 
 function App() {
-  const [count, setCount] = useState(123456789);
-
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">{ count }</h1>
+    <div className="flex w-screen h-screen">
+      <div className="bg-white w-[60%] h-full">
+        <NavHome />
+      </div>
+      <div className="bg-primary w-[40%] h-full bg-[url('./assets/home/pizza-delivery-man-making-phone-gesture-removebg.png')]"></div>
     </div>
   );
 }
