@@ -9,10 +9,10 @@ function App() {
         <NavHome />
         <div className="w-3/5 m-8">
           <Tag />
-          <h2 className="text-xl mt-4">
+          <p className="text-3xl font-bold mt-4 uppercase">
             Peça rápido, aprecie <div className="text-yellow">lentamente</div>
-          </h2>
-          <p className="text-gray bord mt-4">
+          </p>
+          <p className="text-gray text-sm mt-4 font-bold">
             Pizzas com massa feita na hora, assada na pedra no forno a lenha!
           </p>
           <MyButton text="Pedir Agora" />

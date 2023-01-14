@@ -2,6 +2,36 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      sans: [
+        "Inter var, sans-serif",
+        { fontFeatureSettings: '"cv11", "ss01"' },
+      ],
+    },
+    fontSize: {
+      sm: [
+        "1rem",
+        {
+          lineHeight: "1rem",
+          letterSpacing: "-0.01em",
+          fontWeight: "500",
+        },
+      ],
+      base: "1.35rem",
+      xl: "1.75rem",
+      "2xl": "2rem",
+      "3xl": [
+        "3rem",
+        {
+          lineHeight: "3.2rem",
+          letterSpacing: "-0.08em",
+          fontWeight: "500",
+        },
+      ],
+      "4xl": "4rem",
+      "5xl": "5rem",
+      "6xl": "6rem",
+    },
     extend: {},
     colors: {
       primary: "#F21905",
