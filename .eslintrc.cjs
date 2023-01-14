@@ -24,5 +24,12 @@ module.exports = {
     "react/jsx-one-expression-per-line": "off",
     "react/self-closing-comp": "off",
     "@typescript-eslint/quotes": "off",
+    "linebreak-style": 0,
+    "react/function-component-definition": "off",
+    "arrow-body-style": "off",
+    "react/button-has-type": "off",
+    "react/require-default-props": "off",
+    "@typescript-eslint/semi": "off",
+    "@typescript-eslint/keyword-spacing": "off",
   },
 };
