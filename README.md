@@ -2,7 +2,7 @@
 
 **💬 About.** 
 
-Pizza-pizza projeto sistema de pizzaria. React, Vite, Typescript, Tailwind CSS e bibliotecas
+Pizza-pizza sistema de pizzaria. React, Vite, Typescript, Tailwind CSS e bibliotecas
 
 **👇 Follow the steps.** 
 
