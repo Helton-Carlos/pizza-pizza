@@ -1,16 +1,18 @@
 import fries from "../../assets/home/fries.png";
 
-function Tag() {
+type TTag = {
+  title?: string;
+};
+
+const Tag = ({ title }: TTag) => {
   return (
     <div>
-      <div className="flex bg-magenta px-4 py-2 rounded-xl text-center mx-auto w-full">
+      <div className="flex bg-magenta px-4 py-2 rounded-xl text-center mx-auto">
         <img src={fries} alt={fries} />
-        <p className="text-primary pl-2">
-          O MELHOR FASTFOOD DELIVERY DE BRASÍLIA
-        </p>
+        <span className="text-primary pl-2">{title}</span>
       </div>
     </div>
   );
-}
+};
 
 export default Tag;

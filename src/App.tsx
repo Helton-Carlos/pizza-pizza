@@ -8,10 +8,10 @@ function App() {
       <div className="bg-white w-[60%] h-full">
         <NavHome />
         <div className="w-3/5 m-8">
-          <Tag />
-          <p className="text-3xl font-bold mt-4 uppercase">
+          <Tag title="O MELHOR FASTFOOD DELIVERY DE BRASÍLIA" />
+          <h2 className="text-3xl font-bold mt-4 uppercase">
             Peça rápido, aprecie <div className="text-yellow">lentamente</div>
-          </p>
+          </h2>
           <p className="text-gray text-sm mt-4 font-bold">
             Pizzas com massa feita na hora, assada na pedra no forno a lenha!
           </p>
