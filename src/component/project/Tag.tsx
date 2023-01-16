@@ -9,7 +9,7 @@ const Tag = ({ title }: TTag) => {
     <div>
       <div className="flex w-fit bg-magenta px-4 py-2 rounded-full text-center">
         <img src={fries} alt={fries} />
-        <span className="text-primary pl-2">{title}</span>
+        <span className="text-primary pl-2 pt-1">{title}</span>
       </div>
     </div>
   );
