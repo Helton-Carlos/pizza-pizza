@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: [
-        "Inter var, sans-serif",
+        "Inter, sans-serif",
         { fontFeatureSettings: '"cv11", "ss01"' },
       ],
     },
@@ -24,7 +24,7 @@ module.exports = {
         "3rem",
         {
           lineHeight: "3.2rem",
-          letterSpacing: "-0.08em",
+          letterSpacing: "0.01em",
           fontWeight: "500",
         },
       ],

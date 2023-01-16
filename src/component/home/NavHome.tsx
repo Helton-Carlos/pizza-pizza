@@ -1,18 +1,18 @@
 import logo from "../../assets/home/logo.png";
 
-function NavHome() {
+const NavHome = () => {
   return (
-    <div className="flex items-center w-11/12 mx-auto">
+    <div className="w-11/12 flex items-center justify-between mx-auto mt-4">
       <div>
         <img src={logo} alt={logo} />
       </div>
-      <div className="p-4 gap-5">
-        <span>Início</span>
-        <span>Menu</span>
-        <span>Sobre Nós</span>
+      <div className="flex gap-5">
+        <p className="text-sm  hover:text-primary">Início</p>
+        <p className="text-sm hover:text-primary">Menu</p>
+        <p className="text-sm hover:text-primary">Sobre Nós</p>
       </div>
     </div>
   );
-}
+};
 
 export default NavHome;

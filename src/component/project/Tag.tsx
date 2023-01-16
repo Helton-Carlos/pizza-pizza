@@ -7,7 +7,7 @@ type TTag = {
 const Tag = ({ title }: TTag) => {
   return (
     <div>
-      <div className="flex bg-magenta px-4 py-2 rounded-xl text-center mx-auto">
+      <div className="flex w-fit bg-magenta px-4 py-2 rounded-full text-center">
         <img src={fries} alt={fries} />
         <span className="text-primary pl-2">{title}</span>
       </div>
