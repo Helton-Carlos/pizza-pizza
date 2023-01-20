@@ -10,7 +10,7 @@ function App() {
           <Outlet />
         </div>
       </div>
-      <div className="bg-primary w-[40%] h-full bg-[url('./assets/home/pizza-delivery-man-making-phone-gesture-removebg.png')]"></div>
+      <div className="bg-primary w-[40%] h-full bg-[url('./assets/pizza-delivery-man-making-phone-gesture-removebg.png')]"></div>
     </div>
   );
 }

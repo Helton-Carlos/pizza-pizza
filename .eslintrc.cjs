@@ -32,5 +32,6 @@ module.exports = {
     "@typescript-eslint/semi": "off",
     "@typescript-eslint/keyword-spacing": "off",
     "@typescript-eslint/comma-dangle": "off",
+    "import/extensions": "off"
   },
 };

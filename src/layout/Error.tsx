@@ -1,4 +1,4 @@
-import MyButton from "../component/MyButton";
+import MyButton from "@/component/MyButton";
 
 const Error = () => {
   return (

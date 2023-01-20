@@ -1,7 +1,7 @@
-import MyButton from "../component/MyButton";
-import Tag from "../component/Tag";
-import star from "../assets/home/star.png";
-import fries from "../assets/home/fries.png";
+import MyButton from "@/component/MyButton";
+import Tag from "@/component/Tag";
+import star from "@/assets/star.png";
+import fries from "@/assets/fries.png";
 
 function Home() {
   return (
