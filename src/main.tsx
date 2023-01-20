@@ -1,22 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import './index.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import Home from "./pages/Home";
+import Menu from "./pages/Menu";
+import "./index.css";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
-      path: "/",
-      element: <App />,
+      { path: "/", element: <Home /> },
+      { path: "/menu", element: <Menu /> },
     ],
   },
-])
+]);
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
+  </React.StrictMode>
 );

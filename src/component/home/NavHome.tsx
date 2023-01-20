@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/home/logo.png";
 
 const NavHome = () => {
@@ -7,15 +8,24 @@ const NavHome = () => {
         <img src={logo} alt={logo} />
       </div>
       <div className="flex gap-5">
-        <p className="text-sm font-bold hover:text-primary cursor-pointer">
+        <Link
+          to="/"
+          className="text-sm font-bold hover:text-primary cursor-pointer"
+        >
           Início
-        </p>
-        <p className="text-sm font-bold hover:text-primary cursor-pointer">
+        </Link>
+        <Link
+          to="/menu"
+          className="text-sm font-bold hover:text-primary cursor-pointer"
+        >
           Menu
-        </p>
-        <p className="text-sm font-bold hover:text-primary cursor-pointer">
-          Sobre Nós
-        </p>
+        </Link>
+        <Link
+          to="/contato"
+          className="text-sm font-bold hover:text-primary cursor-pointer"
+        >
+          Contato
+        </Link>
       </div>
     </div>
   );
