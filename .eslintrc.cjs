@@ -31,5 +31,6 @@ module.exports = {
     "react/require-default-props": "off",
     "@typescript-eslint/semi": "off",
     "@typescript-eslint/keyword-spacing": "off",
+    "@typescript-eslint/comma-dangle": "off",
   },
 };

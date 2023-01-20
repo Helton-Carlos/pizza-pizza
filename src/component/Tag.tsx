@@ -1,4 +1,4 @@
-import fries from "../../assets/home/fries.png";
+import fries from "../assets/home/fries.png";
 
 type TTag = {
   title?: string;

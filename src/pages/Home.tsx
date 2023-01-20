@@ -1,5 +1,5 @@
-import MyButton from "../component/project/MyButton";
-import Tag from "../component/project/Tag";
+import MyButton from "../component/MyButton";
+import Tag from "../component/Tag";
 import star from "../assets/home/star.png";
 
 function Home() {

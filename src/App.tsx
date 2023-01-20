@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
-import NavHome from "./component/home/NavHome";
+import NavBar from "./layout/NavBar";
 
 function App() {
   return (
     <div className="flex w-screen h-screen">
       <div className="bg-white w-[60%] h-full">
         <div className="w-4/5 mx-auto">
-          <NavHome />
+          <NavBar />
           <Outlet />
         </div>
       </div>

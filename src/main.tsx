@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
+import Contact from "./pages/Contact";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/menu", element: <Menu /> },
+      { path: "/contact", element: <Contact /> },
     ],
   },
 ]);

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/home/logo.png";
+import logo from "../assets/home/logo.png";
 
-const NavHome = () => {
+const NavBar = () => {
   return (
     <div className="w-11/12 flex items-center justify-between mx-auto mt-10">
       <div>
@@ -21,7 +21,7 @@ const NavHome = () => {
           Menu
         </Link>
         <Link
-          to="/contato"
+          to="/contact"
           className="text-sm font-bold hover:text-primary cursor-pointer"
         >
           Contato
@@ -31,4 +31,4 @@ const NavHome = () => {
   );
 };
 
-export default NavHome;
+export default NavBar;
