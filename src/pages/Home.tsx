@@ -1,11 +1,12 @@
 import MyButton from "../component/MyButton";
 import Tag from "../component/Tag";
 import star from "../assets/home/star.png";
+import fries from "../assets/home/fries.png";
 
 function Home() {
   return (
     <div className="mx-8 md:mt-12">
-      <Tag title="O MELHOR FASTFOOD DELIVERY DE BRASÍLIA" />
+      <Tag title="O MELHOR FASTFOOD DELIVERY DE BRASÍLIA" icon={fries} />
       <div className="my-5">
         <div className="md:mt-10">
           <h2 className="text-3xl font-bold mt-4">Peça rápido,</h2>
