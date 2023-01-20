@@ -1,7 +1,7 @@
 type TButtonProps = {
   text?: string;
   condition?: boolean;
-  onClick?: any;
+  onClick?: () => void;
 };
 
 const MyButton = ({ onClick, text, condition }: TButtonProps) => {
