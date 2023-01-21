@@ -3,22 +3,26 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      sans: [
-        "Inter, sans-serif",
-        { fontFeatureSettings: '"cv11", "ss01"' },
-      ],
+      sans: ["Inter, sans-serif", { fontFeatureSettings: '"cv11", "ss01"' }],
     },
     fontSize: {
       sm: [
-        "1rem",
+        "0.8rem",
         {
           lineHeight: "1rem",
           letterSpacing: "-0.01em",
           fontWeight: "500",
         },
       ],
-      base: "1.35rem",
-      xl: "1.75rem",
+      base: [
+        "1.00rem",
+        {
+          lineHeight: "1rem",
+          letterSpacing: "-0.01em",
+          fontWeight: "700",
+        },
+      ],
+      xl: "1.55rem",
       "2xl": "2rem",
       "3xl": [
         "3rem",

@@ -4,6 +4,9 @@ import star from "@/assets/star.png";
 import fries from "@/assets/fries.png";
 
 function Home() {
+  function routerMenu() {
+    console.log("hey");
+  }
   return (
     <div className="mx-8 md:mt-12">
       <Tag title="O MELHOR FASTFOOD DELIVERY DE BRASÍLIA" icon={fries} />
@@ -18,7 +21,7 @@ function Home() {
           </p>
         </div>
         <div className="flex items-center gap-2 mb-5">
-          <MyButton text="Pedir Agora" condition />
+          <MyButton text="Pedir Agora" condition onClick={routerMenu} />
           <MyButton text="Ver Menu" />
         </div>
         <div className="md:mt-12 flex items-center">
