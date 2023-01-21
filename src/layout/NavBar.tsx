@@ -10,19 +10,19 @@ const NavBar = () => {
       <div className="flex gap-5">
         <Link
           to="/"
-          className="text-sm font-bold hover:text-primary cursor-pointer"
+          className="text-base font-bold hover:text-primary cursor-pointer"
         >
           Início
         </Link>
         <Link
           to="/menu"
-          className="text-sm font-bold hover:text-primary cursor-pointer"
+          className="text-base font-bold hover:text-primary cursor-pointer"
         >
           Menu
         </Link>
         <Link
           to="/contact"
-          className="text-sm font-bold hover:text-primary cursor-pointer"
+          className="text-base font-bold hover:text-primary cursor-pointer"
         >
           Contato
         </Link>
