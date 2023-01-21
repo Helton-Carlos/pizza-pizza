@@ -33,6 +33,7 @@ module.exports = {
     "@typescript-eslint/keyword-spacing": "off",
     "@typescript-eslint/comma-dangle": "off",
     "import/extensions": "off",
+    "react/destructuring-assignment": "off",
     "react/jsx-no-bind": "off",
   },
 };
