@@ -30,7 +30,7 @@ function Home() {
         </div>
         <div className="flex items-center gap-2 mb-5">
           <MyButton text="Pedir Agora" condition onClick={routerMenu} />
-          <MyButton text="Contato" condition onClick={routerContact} />
+          <MyButton text="Contato" onClick={routerContact} />
         </div>
         <div className="md:mt-12 flex items-center">
           <div className="flex">
