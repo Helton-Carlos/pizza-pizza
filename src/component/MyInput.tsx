@@ -4,6 +4,8 @@ type TInput = {
   type: string;
   name: string;
   placeholder: string;
+  value?: string;
+  handleOnChange: string;
 };
 
 function MyInput(props: TInput) {
@@ -11,11 +13,12 @@ function MyInput(props: TInput) {
   return (
     <div>
       <input
-        className="block w-full mb-4 px-3 py-1 text-gray-dark bg-white border rounded-md focus:border-primary focus:ring-primary focus:outline-none focus:ring focus:ring-opacity-40"
+        className="block w-full mb-4 px-3 py-2 text-gray-dark bg-white border rounded-md focus:border-primary focus:ring-primary focus:outline-none focus:ring focus:ring-opacity-40"
         type={props.type}
         name={props.name}
         placeholder={props.placeholder}
-        onChange={(e) => setInput(e.target.value)}
+        onChange={props.handleOnChange}
+        value={props.value}
       />
     </div>
   );
